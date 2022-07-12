@@ -22,4 +22,4 @@ function longestWord(string) {
     console.log(word);
 }
 
-longestWord(sample.replace(/,/g,''))
+longestWord(sample.replace(/[&\/\#,+()$~%.'":*?<>{}]/g,''))
